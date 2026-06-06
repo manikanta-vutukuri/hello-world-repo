@@ -14,6 +14,13 @@ jobs:
       with:
         python-version: 3.11
 
+    - name: View actual folder structure
+      run: |
+        echo "=== Where am I? ==="
+        pwd
+        echo "=== What files are here? ==="
+        ls -R
+
     - name: Install dependencies
       working-directory: ./github-actions-lab1-q1
       run: |
