@@ -15,5 +15,7 @@ jobs:
         python-version: 3.11
 
     - name: Install dependencies
+      working-directory: ./github-actions-lab1-q1
       run: |
-        pip install -r github-actions-lab1-q1/requirements.txt
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt

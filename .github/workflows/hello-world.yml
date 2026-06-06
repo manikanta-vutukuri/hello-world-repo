@@ -1,5 +1,5 @@
 name: Hello World
-'on': push
+on: fork
 jobs:
   hello-job:
     runs-on: ubuntu-latest
